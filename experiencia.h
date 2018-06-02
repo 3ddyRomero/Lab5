@@ -1,13 +1,14 @@
 #ifndef EXPERIENCIA_H
 #define EXPERIENCIA_H
+#include "plato.h"
 #include <string>
 #include <vector>
 using namespace std;
 
 class experiencia{
         private:
-            //vector <clienteplato> cp;
-           int gastado;
+            vector <plato> cp;
+            int gastado;
 
         public:
             experiencia();

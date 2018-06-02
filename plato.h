@@ -19,9 +19,7 @@ class plato{
             void setCliente(string);
 
             string getPlato();
-            void setPlato(string);
-	    
-	        void pushPlatos();	
+            void setPlato(string);	
 
             ~plato();
 
