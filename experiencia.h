@@ -6,22 +6,17 @@ using namespace std;
 
 class experiencia{
         private:
-            string cliente;
-            string plato;
-            int gastado;
+            //vector <clienteplato> cp;
+           int gastado;
 
         public:
             experiencia();
-            experiencia(string, string, int);
-
-            string getCliente();
-            void setCliente(string);
-            
-            string getPlato();
-            void setPlato(string);
+            experiencia(int);
 
             int getGastado();
             void setGastado(int);
+
+            
 
             ~experiencia();
 };

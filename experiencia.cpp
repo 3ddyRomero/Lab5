@@ -4,27 +4,8 @@ experiencia::~experiencia(){
 
 }
 
-experiencia::experiencia(string pCliente, string pPlato, int pGastado){
-    this->cliente=pCliente;
-    this->plato=pPlato;
+experiencia::experiencia(int pGastado){
     this->gastado=pGastado;
-}
-
-
-string experiencia::getCliente(){
-    return cliente;
-}
-
-void experiencia::setCliente(string pCliente){
-    this->cliente = pCliente;
-}
-
-string experiencia::getPlato(){
-    return plato;
-}
-
-void experiencia::setPlato(string pPlato){
-    this->plato = pPlato;
 }
 
 int experiencia::getGastado(){

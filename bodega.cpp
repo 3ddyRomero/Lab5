@@ -3,21 +3,24 @@
 #include <vector>
 bodega::bodega(){
     
+}
+
+bodega::~bodega(){
     
 }
 
-bodega::bodega( vector <ingrediente*> pNTC ,int pCantidad,int pCompras,int pN){
+bodega::bodega( vector <ingrediente> pNTC ,int pCantidad,int pCompras,int pN){
     this->ntc=pNTC;
     this->cantidad = pCantidad;
     this->compras = pCompras;
     this->n = pN;
 }
 
-vector <ingrediente*> bodega::getNTC(){
+vector <ingrediente> bodega::getNTC(){
     return ntc;
 }
 
-void bodega::setNTC(vector<ingrediente*> pNTC){
+void bodega::setNTC(vector <ingrediente> pNTC){
     this->ntc=pNTC;
 }
 
@@ -44,4 +47,10 @@ int bodega::getN(){
 void bodega::setN(int pN){
     this->n=pN;
 }
+
+void bodega:: pushingrediente(ingrediente ingrediente){
+    ntc.push_back(ingrediente);
+}
+
+
 
