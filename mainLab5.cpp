@@ -29,6 +29,7 @@ int main()
 {
     char op = 'y';
     bodega bodega;
+    experiencia experiencia;
     do
     {
         //Inicio del switch con menu
@@ -96,3 +97,25 @@ void agregarIngredientes(bodega bodega)
     //meter en la lista
     bodega.pushingrediente(ingrediente);
 }
+
+void agregarPlatos(bodega bodega)
+{
+    //variables
+    string cliente, Platillo;
+
+    vector<plato> lista;
+    //pedor datos del ingrediente
+    plato plato;
+    cout << "Ingrese el nombre del cliente" << endl;
+    cin >> cliente;
+    cout << "Ingrese el nombre del Platillo:" << endl;
+    cin >> Platillo;
+
+    //llenar el objeto ingrediente
+    plato.setCliente(cliente);
+    plato.setPlato(Platillo);
+
+    //meter en la lista
+    //experiencia.pushplato(plato);
+}
+
