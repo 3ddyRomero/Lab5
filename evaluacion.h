@@ -1,5 +1,6 @@
 #ifndef EVALUACION_H
 #define EVALUACION_H
+#include <vector>
 
 using namespace std;
 

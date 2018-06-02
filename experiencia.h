@@ -21,7 +21,7 @@ class experiencia{
             void setPlato(string);
 
             int getGastado();
-            void setGastado();
+            void setGastado(int);
 
             ~experiencia();
 };

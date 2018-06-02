@@ -7,16 +7,13 @@
 using namespace std;
 
 class ingrediente{
-        private:
-            
-            
+        private:            
             string name;
             string tipo;
-            int cantidad;
 
         public:
             ingrediente();
-            ingrediente(string, string, int);
+            ingrediente(string, string);
             
 
             string getName();
@@ -24,9 +21,6 @@ class ingrediente{
 
             string getTipo();
             void setTipo(string);
-            
-            int getCantidad();
-            void setCantidad(int);
 
             ~ingrediente();
 

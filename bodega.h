@@ -11,15 +11,19 @@ using namespace std;
 class bodega{
         private:
             vector <ingrediente*> ntc;
+            int cantidad;
             int compras;
             int n;
 
         public:    
             bodega();
-            bodega(string, string, int, int, int);
+            bodega(vector<ingrediente*>, int, int, int);
             
             vector <ingrediente*> getNTC();
-            void setNTC(ingrediente*);
+            void setNTC(vector <ingrediente*>);
+
+            int getCantidad();
+            void setCantidad(int);
 
             int getCompras();
             void setCompras(int);
