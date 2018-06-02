@@ -1,4 +1,5 @@
 #include "plato.h"
+#include <vector>
 
 plato::plato(){
 	

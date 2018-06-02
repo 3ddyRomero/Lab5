@@ -12,12 +12,15 @@ class experiencia{
 
         public:
             experiencia();
-            experiencia(int);
+            experiencia(vector <plato>,int);
+
+            vector <plato> getCP();
+            void setCP(vector <plato>);
 
             int getGastado();
             void setGastado(int);
 
-            
+            void pushplato(plato);
 
             ~experiencia();
 };

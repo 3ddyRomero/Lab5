@@ -10,7 +10,7 @@ class evaluacion{
       public:  
             evaluacion();
             evaluacion(int);
-
+            
             int getEvaluacion();
             void setEvaluacion(int);
 
